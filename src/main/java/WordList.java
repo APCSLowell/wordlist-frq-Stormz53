@@ -15,7 +15,7 @@ public class WordList
     for(int i =0;i<myList.size();i++)
       if(myList.get(i).length()==len)
         count++;
-    return count;    
+    return count;
   }
 
   public void removeWordsOfLength(int len)
@@ -26,6 +26,5 @@ public class WordList
         myList.remove(i);
         i--;
       }
-    return myList;
   }
 }
